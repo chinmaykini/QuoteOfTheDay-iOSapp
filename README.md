@@ -12,4 +12,4 @@ ios app for QuoteOfTheDay.
 - [x] Flickr search service using current location 
 
 ### Video Walkthrough
-![alt text](thought.gif)
+![alt text](thought1.gif)
