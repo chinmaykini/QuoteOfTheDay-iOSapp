@@ -132,7 +132,9 @@
     
     NSString *urlPostFix = [NSString stringWithFormat:@"&lat=%f&lon=%f", self.currentLocation.coordinate.latitude, self.currentLocation.coordinate.longitude];
     
-    NSString *urlPreFix = @"https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=410b6b03bd36c22f0f96322e8ec8a298&tags=bridge,treyratcliff&sort=interestingness-desc&privacy_filter=1&accuracy=11&safe_search=1&content_type=1&radius=20&radius_units=mi&format=json&nojsoncallback=1";
+//    NSString *urlPostFix = @"";
+    
+    NSString *urlPreFix = @"https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=410b6b03bd36c22f0f96322e8ec8a298&tags=bridge,goldengate,baybridge&sort=interestingness-desc&privacy_filter=1&accuracy=11&safe_search=1&content_type=1&radius=20&radius_units=mi&format=json&nojsoncallback=1";
 
     NSString *urlStr = [urlPreFix stringByAppendingString:urlPostFix];
     
